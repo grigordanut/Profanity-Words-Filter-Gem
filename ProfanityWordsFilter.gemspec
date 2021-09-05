@@ -14,10 +14,9 @@ Gem::Specification.new do |spec|
   spec.files         = ["lib/ProfanityWordsFilter.rb"]
   spec.license       = "MIT"
 
-  spec.metadata["allowed_push_host"] = "https://rubygems.org/profiles/grigordanut"
+  spec.metadata["allowed_push_host"] = "https://rubygems.org/profiles/gems/ProfanityWordsFilter"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.credentials   = "email: danut.grigor@gmail.com, password: biancaDANUT2007"
 
   spec.files = Dir.chdir(File.expand_path(__dir__)) do
     `git ls-files -z`.split("\x0").reject do |f|
