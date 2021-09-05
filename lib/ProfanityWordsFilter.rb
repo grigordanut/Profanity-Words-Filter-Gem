@@ -19,4 +19,5 @@ module ProfanityWordsFilter
      return downcase
 
    end
+   
 end
