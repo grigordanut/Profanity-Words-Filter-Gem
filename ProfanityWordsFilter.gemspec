@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.date          = '2021-09-05'
   spec.summary       = "Replacing letters from profanity words with hashed letters.."
   spec.description   = "Profanity Words Filter."
-  spec.homepage      = "https://github.com/grigordanut/Profanity-Words-Filter-Gem"
+  spec.homepage      = "https://rubygems.org/profiles/grigordanut"
   spec.files         = ["lib/ProfanityWordsFilter.rb"]
   spec.license       = "MIT"
 
