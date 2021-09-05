@@ -10,13 +10,13 @@ Gem::Specification.new do |spec|
   spec.date          = '2021-09-05'
   spec.summary       = "Replacing letters from profanity words with hashed letters.."
   spec.description   = "Profanity Words Filter."
-  spec.homepage      = "https://rubygems.org/profiles/grigordanut"
+  spec.homepage      = "https://github.com/grigordanut/Profanity-Words-Filter-Gem"
   spec.files         = ["lib/ProfanityWordsFilter.rb"]
   spec.license       = "MIT"
 
-  #spec.metadata["allowed_push_host"] = "https://github.com/grigordanut/Profanity-Words-Filter-Gem"
+  # spec.metadata["allowed_push_host"] = "https://github.com/grigordanut/Profanity-Words-Filter-Gem"
 
-  spec.metadata["homepage_uri"] = spec.homepage
+  # spec.metadata["homepage_uri"] = spec.homepage
 
   spec.files = Dir.chdir(File.expand_path(__dir__)) do
     `git ls-files -z`.split("\x0").reject do |f|
