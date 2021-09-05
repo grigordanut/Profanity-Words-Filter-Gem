@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.files         = ["lib/ProfanityWordsFilter.rb"]
   spec.license       = "MIT"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to 'https://mygemserver.com'"
+  spec.metadata["allowed_push_host"] = "https://github.com/grigordanut/Profanity-Words-Filter-Gem'"
 
   spec.metadata["homepage_uri"] = spec.homepage
 
